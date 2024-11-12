@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.blur-background {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbg {
+    background-color: white;
+}
+
+#navItem1 {
+    color: navy;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: navy;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: navy;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: navy;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: navy;
+    font-family: "Roboto";
+}
+
+.profile-bg {
+    background-image: linear-gradient(to right, #E0D2C7, #44B09E);
+
+}
+
+.hello {
+    font-family: cursive;
+}
+
+.name {
+    font-family: cursive;
+    font-size: 70px;
+}
+
+.bg {
+    background-color: #27291c;
+    font-family: roboto;
+}
+
+.profile-section {
+    background-color: #3b3728;
+    border-style: solid;
+    border-color: #FFD700;
+    border-radius: 8px;
+}
+
+.profile-sec-img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px #E0D2C7;
+}
+
+.about-bg {
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 3px;
+    margin: 20px;
+}
+
+.skills-bg {
+    background-image: linear-gradient(#F5FFFA, #AFEEEE, #87CEFA);
+}
+
+.project-bg {
+    background-image: radial-gradient(#747474, #4b4b4b, #3e3e3e, #313131, #242424);
+}
+
+.profile-heading {
+    color: #FFD700;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.profile-role {
+    background-color: white;
+    color: #27291c;
+    height: 36px;
+    width: 210px
+}
+
+.margin {
+
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-hr {
+    background-color: gold;
+    width: 90%;
+    font-size: 50px;
+}
+
+.contact-id {
+    color: grey;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-id2 {
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.contact-media {
+    color: gold;
+    font-size: 35px;
+}
+
+.contact-media2 {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.contact-media2:hover,
+.contact-media2:focus,
+.contact-media2:target {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-des {
+    color: black;
+    font-size: 20px;
+}
+
+.heading {
+    color: navy;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-hr {
+    background-color: gold;
+    width: 50px;
+    height: 5px;
+    border-radius: 8px;
+}
+
+.contact-media {
+    color: gold;
+    font-size: 35px;
+}
+
+.heading-resume {
+    color: grey;
+    font-weight: bold;
+    ;
+}
+
+.heading-resume-2 {
+    color: grey;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.resume-hr {
+    background-color: gold;
+    width: 85%;
+    font-size: 50px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+
+.resume-media {
+    color: gold;
+    font-size: 25px;
+}
+
+.bg-skills {
+    background-color: #1f2933;
+    background-size: cover;
+}
+
+.percentage-bg {
+    background-color: skyblue;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.skills-per {
+    background-color: white;
+    width: 60%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skills-ht-per {
+    background-color: white;
+    width: 65%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skills-bs-per {
+    background-color: white;
+    width: 80%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skills-sql-per {
+    background-color: white;
+    width: 30%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skills-py-per {
+    background-color: white;
+    width: 40%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skill-head {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.skills-card {
+    background-color: skyblue;
+    border-radius: 60%;
+    padding: 32px;
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-color: white;
+}
+
+.skills-img {
+    height: 100%;
+
+
+}
+
+.py {
+    height: 150%;
+    width: 150%;
+}
+
+.skills-img2 {
+    height: 64px;
+    width: 64px;
+    border-radius: 8px;
+}
+
+.head1 {
+    color: #cced00;
+    font-size: 30px;
+}
+
+.head2 {
+    color: grey;
+    font-size: 30px;
+}
+
+.projects-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.projects-card:hover,
+.projects-card:focus,
+.projects-card:target {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pro-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.img-projects {
+    width: 100%;
+    height: 50%;
+}
+
+.p-projects {
+    color: black;
+    font-size: 15px;
+}
+
+.project-heading {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link {
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow {
+    color: black;
+    font-size: 15px;
+}
+
+.project-para {
+    color: black;
+    font-size: 20px;
+}
+
+.certificate-bg {
+    background-color: #FFFFF0;
+}
+
+.certificates {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.certificates:hover,
+.certificates:focus,
+.certificates:target {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certificate3 {
+    width: 100%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.certificate3:hover,
+.certificate3:focus,
+.certificate3:target {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-bg {
+    background-color: #F0F8FF;
+    height: 100vh;
+}
+
+.contact {
+    font-family: roboto;
+}
+
+.button {
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: linear-gradient(135deg, #EA4335, #D14836);
+    color: white;
+}
+
+.button2 {
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: linear-gradient(135deg, #34D058, #28A745);
+    color: white;
+}
+
+.contact-para {
+    color: #FF8C00;
+    font-family: cursive;
+}
