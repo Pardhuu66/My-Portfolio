@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pardhu's Portfolio</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/decpgg8fe/image/upload/v1736096206/Picsart_25-01-05_22-24-40-850_iq5bau.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/32ad719b4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="splash-screen">
+        <span class="shining">Pardhu's Portfolio</span>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light blur-background fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#profile-section">
+                    <h1 style="font-family:cursive;">PS</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link navItem1 active" href="#profile-section">
+                            Profile
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link navItem1 active" href="#aboutSection">About</a>
+                        <a class="nav-link navItem1 active" href="#skillsSection">Skills</a>
+                        <a class="nav-link navItem1 active" href="#projectsSection">Projects</a>
+                        <a class="nav-link navItem1 active" href="#hackathonSection">Hackathon</a>
+                        <a class="nav-link navItem1 active" href="#certificateSection">Certifications</a>
+                        <a class="nav-link navItem1 active" href="#contactSection">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="navbar-progress-line mt-4" id="navbar-progress-line"></div>
+    <div id="profile-section">
+        <div class="profile-bg pt-5 pb-5">
+            <div class="container-fluid">
+                <div class="profile-flex-row">
+                    <!-- Info -->
+                    <div class="profile-info-flex">
+                        <p class="hello ml-2" style="margin-top:50px;">&#128075;Hey there, I am</p>
+                        <h1 class="name ml-2"><span id="typed-name"></span><span id="typed-cursor">|</span></h1>
+                        <div>
+                            <p class="profile-role margin pt-1 pl-1 ml-2 mt-3">
+                                <span id="role-rotator"></span>
+                            </p>
+                        </div>
+                        <div class="d-flex flex-row pl-3 d-none d-md-block">
+                            <a class="social-icon" href="https://www.linkedin.com/in/pardha-sai-gudivada-297447259/" target="_blank"><i class="fa-brands fa-linkedin  contact-media2 ml-1  mb-3 p-3"></i></a>
+                            <a class="social-icon" href="https://www.instagram.com/6pardhu6?igsh=eXY1cXg1bGVlODdu" target="_blank"><i class="fa-brands fa-instagram  contact-media3  ml-2 p-3"></i></a>
+                            <a class="social-icon" href="https://github.com/Pardhuu66" target="_blank"><i class="fa-brands fa-github contact-media4  ml-2 p-3"></i></a>
+                        </div>
+                    </div>
+                    <!-- Skills Zig-Zag -->
+                    <div class="skills-zigzag-col" id="skills-zigzag-col">
+                        <div class="skill-zigzag-row left"><img class="skill-icon" src="https://res.cloudinary.com/decpgg8fe/image/upload/v1723040957/Screenshot_2024-08-07_195831_dislga.png" alt="Skill 1" /></div>
+                        <div class="skill-zigzag-row right"><img class="skill-icon" src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412257/cpp-logo_oyukrj.png" alt="Skill 2" /></div>
+                        <div class="skill-zigzag-row left"><img class="skill-icon" src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412305/p-80-java_l9k7qg.webp" alt="Skill 3" /></div>
+                        <div class="skill-zigzag-row right"><img class="skill-icon" src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412800/1174925_s8n06z.webp" alt="Skill 4" /></div>
+                        <div class="skill-zigzag-row left"><img class="skill-icon" src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412939/sqlite_cawwov.png" alt="Skill 5" /></div>
+                    </div>
+                    <!-- Profile Image -->
+                    <div class="profile-image-flex">
+                        <div class="image-container" style="display: inline-block; position: relative;">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1722757274/WhatsApp_Image_2024-08-04_at_13.02.45_03d6b338_u7gvlb.jpg" class="profile-sec-img mt-5" id="profile-image" />
+                            <span class="loader" id="profile-loader"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center d-md-none d-block">
+                <a href="https://www.linkedin.com/in/pardha-sai-gudivada-297447259/" target="_blank"><i class="fa-brands fa-linkedin  contact-media2 ml-1  mb-3 p-3"></i></a>
+                <a href="https://www.instagram.com/6pardhu6?igsh=eXY1cXg1bGVlODdu" target="_blank"><i class="fa-brands fa-instagram  contact-media3  ml-2 p-3"></i></a>
+                <a href="https://github.com/Pardhuu66" target="_blank"><i class="fa-brands fa-github contact-media4  ml-2 p-3"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="aboutSection">
+        <div class="about-bg pt-5 pb-5 p-3">
+            <h1 class="heading mt-2">Innovating Through Code, Transforming Ideas into Reality</h1>
+            <p class="about-des mr-2">
+                I'm a <span style="color:navy;">final-year Computer Science Engineering student</span> with a deep passion for 
+                <span style="color:navy;">Full-Stack Web Development</span>, <span style="color:navy;">AI/ML</span>, and solving real-world problems through code. 
+                With a solid foundation in <span style="color:navy;">HTML</span>, <span style="color:navy;">CSS</span>, <span style="color:navy;">Bootstrap</span>, 
+                and <span style="color:navy;">JavaScript</span>, I focus on creating intuitive and responsive front-end interfaces, 
+                while also developing scalable backend systems using <span style="color:navy;">Python</span> and <span style="color:navy;">FastAPI</span>.
+            </p>
+            
+            <p class="about-des mr-2">
+                My experience includes building and deploying a variety of impactful projects such as portfolio websites, 
+                real-time weather applications, and smart utility systems. I’ve also developed strong programming skills in 
+                <span style="color:navy;">Python</span>, <span style="color:navy;">Java</span>, and <span style="color:navy;">C++</span>, 
+                with a growing command over <span style="color:navy;">Data Structures and Algorithms</span> to strengthen my problem-solving abilities.
+            </p>
+            
+            <p class="about-des mr-2">
+                I’ve been an active participant in national-level hackathons and coding contests, including being shortlisted for 
+                <span style="color:navy;">Smart India Hackathon 2023 & 2024</span> and winning top honors in technical fests and programming challenges. 
+                My technical journey is complemented by leadership in organizing college events and participating in cultural competitions demonstrating 
+                my adaptability, creativity, and team spirit.
+            </p>
+            
+            <p class="about-des mr-2">
+                With a learner’s mindset and a builder’s spirit, I’m driven to craft efficient, user-focused solutions that blend 
+                clean design with smart functionality. My goal is to grow as a <span style="color:navy;">Full-Stack Developer</span> at a 
+                leading tech company and contribute meaningfully to real-world innovations.
+            </p>                 
+        </div>
+    </div>
+    <div id="skillsSection" class="skills-bg pt-5 pb-3">
+        <h1 class="heading text-center">Building with Code: My Skill Set</h1>
+    <div class="line">
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753444417/html5-logo-png_seeklogo-206834_bftzq0.png" class="skills-img" />     
+        </div>
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753444426/css3-logo-png_seeklogo-186678_ivp618.png" class="skills-img" />     
+        </div>    
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412550/images_6_afvlgt.png" class="skills-img" />     
+        </div>  
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1723040957/Screenshot_2024-08-07_195831_dislga.png" class="skills-img" />     
+        </div> 
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1723041444/Screenshot_2024-08-07_200620_bobgb5.png" class="skills-img" />     
+        </div>
+    </div>
+    <div class="line-2">
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412257/cpp-logo_oyukrj.png" class="skills-img" />     
+        </div>
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412800/1174925_s8n06z.webp" class="skills-img" />     
+        </div>
+        <div class="skills-card mb-5 mr-4 ">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1752412939/sqlite_cawwov.png" class="skills-img skills-sql-per" />     
+        </div>
+    </div>
+            <p style="color:white; font-size:20px; padding:10px; ">"I possess a solid foundation in web development, with hands-on experience in HTML, CSS, and Bootstrap. I am adept at creating static and responsive websites, and I continuously seek to expand my skills and knowledge in full-stack development."</p>
+        
+        
+        <div class="d-flex flex-row justify-content-end pr-3 pt-3 d-none d-md-block text-right">
+            <a href="https://www.linkedin.com/in/pardha-sai-gudivada-297447259/" target="_blank"><i class="fa-brands fa-linkedin  contact-media2 ml-1  mb-3 p-3"></i></a>
+            <a href="https://www.instagram.com/6pardhu6?igsh=eXY1cXg1bGVlODdu" target="_blank"><i class="fa-brands fa-instagram  contact-media3  ml-2 p-3"></i></a>
+            <a href="https://github.com/Pardhuu66" target="_blank"><i class="fa-brands fa-github contact-media4  ml-2 p-3"></i></a>
+        </div>
+    </div>
+    <div id="projectsSection" class="project-bg pt-5 ">
+        <div class="container">
+            <div class="mt-3">
+                <h1 class="pro-heading ml-4 mb-4 text-center">Projects I have done</h1>
+                <div class="row p-3">
+                    <div class="col-12 col-md-6 ">
+                        <div class="projects-card mb-5">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1725029427/Screenshot_2024-08-30_201908_ksxttf.png" class="img-projects" />
+                            <p class="p-projects pt-3 pl-3">Web design</p>
+                            <h1 class="project-heading pl-3">My Portfolio</h1>
+                            <p class="project-para p-3">Welcome to my portfolio, where I blend creativity and technology to build innovative solutions.....</p>
+                            <a href="https://saiparth.ccbp.tech/" target="_blank" class="link pl-4 ">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="projects-card mb-5">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753447473/Screenshot_2025-07-03_142835_zzhati.png" class="img-projects" />
+                            <p class="p-projects pt-3 pl-3">AI/ ML Project</p>
+                            <h1 class="project-heading pl-3">College ID Validator: AI-based Image Validation System</h1>
+                            <p class="project-para p-3">Developed a FastAPI-based AI system to validate college ID cards using ONNX classification, OCR, face detection and more....</p>
+                            <a href="https://github.com/Pardhuu66/college-id-validator" target="_blank" class="link pl-4 ">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="projects-card mb-5">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753447912/Recording_2025-07-25_182009_ooiht6.gif" class="img-projects" />
+                            <p class="p-projects pt-3 pl-3">Weather Web Application</p>
+                            <h1 class="project-heading pl-3">AtmosVision: Forecasting the Sky above You</h1>
+                            <p class="project-para p-3">Atmos Vision is a real-time weather app with dynamic UI updates based on live conditions....</p>
+                            <a href="https://omparthweather.ccbp.tech/" target="_blank" class="link pl-4 ">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="projects-card mb-5">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753448940/cursorcontrol_rfaao9.gif" class="img-projects" />
+                            <p class="p-projects pt-3 pl-3">Python & OpenCV</p>
+                            <h1 class="project-heading pl-3">Gesture-Controlled Cursor</h1>
+                            <p class="project-para p-3">Built a touchless cursor control system using hand gestures for real-time cursor actions, clicks, and window controls....</p>
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_cursor-fist-fingers-activity-7336760186415566848-0RPd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank" class="link pl-4 ">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="projects-card mb-5">
+                            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/c_crop,ar_16:9/v1740758912/WhatsApp_Image_2025-01-24_at_22.00.11_b2551f2f_m7xhop.jpg" class="img-projects" />
+                            <p class="p-projects pt-3 pl-3">IoT Project</p>
+                            <h1 class="project-heading pl-3">Automated Seed Sowing Robot</h1>
+                            <p class="project-para p-3">The Solar-Powered Seed-Sowing Robot revolutionizes traditional farming by integrating automation, solar energy,
+                                and precision agriculture....</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-start pl-3 pt-3 pb-3 d-none d-md-block">
+            <a href="https://www.linkedin.com/in/pardha-sai-gudivada-297447259/" target="_blank"><i class="fa-brands fa-linkedin  contact-media2 ml-1  mb-3 p-3"></i></a>
+            <a href="https://www.instagram.com/6pardhu6?igsh=eXY1cXg1bGVlODdu" target="_blank"><i class="fa-brands fa-instagram  contact-media3  ml-2 p-3"></i></a>
+            <a href="https://github.com/Pardhuu66" target="_blank"><i class="fa-brands fa-github contact-media4  ml-2 p-3"></i></a>
+        </div>
+    </div>
+    <!-- Hackathon Journey Section -->
+    <div id="hackathonSection">
+        <!-- Header Content -->
+        <section class="hackathon-content">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center mb-5 ">
+                    <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753513999/SIH2_bjdbdf.webp" alt="Smart India Hackathon 2024 Logo" class="sih-logo mr-3 mt-5" />
+                    <h1 class="heading mb-0 mt-5">Smart India Hackathon 2024: Behind the Build</h1>
+                </div>
+                <div>
+                    <p>This section showcases my journey through Smart India Hackathon 2024,
+                        a milestone that began with my shortlisting in 2023 and turned into
+                        a remarkable achievement in 2024. Alongside my teammates, I not only conquered
+                        a national-level challenge but also experienced an unforgettable 24-hour innovation
+                        hackathon filled with learning, collaboration, and growth.</p>
+                </div>
+                <section class="hackathon-content1">
+                    <div class="container">
+                        <div class="timeline-card">
+                            <div class="timeline-content">
+                                <h3>🏁 Day 1 – Kickoff & Development Begins</h3>
+                                <h4>Smart India Hackathon 2024 Finalist</h4>
+                                <p class="timeline-date">Venue: SVCET, Chittoor | Date: December 10, 2024</p>
+                                <p>Arrived at SVCET, Chittoor, and began understanding the problem statement provided by AICTE. Conducted brainstorming sessions, finalized our approach, and kicked off backend development using FastAPI and Python. Divided tasks across the team and laid the groundwork for AI-powered automation modules.</p>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">Ideation</span>
+                                    <span class="skill-tag">FastAPI</span>
+                                    <span class="skill-tag">Backend</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- First Parallax Section -->
+        <section class="hackathon-parallax-1"></section>
+
+        <!-- First Timeline Card Content -->
+        <section class="hackathon-content">
+            <div class="container">
+                <div class="timeline-card">
+                    <div class="timeline-content">
+                        <h3>🛠️ Day 2 – Development & AI Integration</h3>
+                        <h4>Smart India Hackathon 2024 Finalist</h4>
+                        <p class="timeline-date">Venue: SVCET, Chittoor | Date: December 11, 2024</p>
+                        <p>Built and integrated core modules for evaluator allocation and document verification using ML. Coordinated closely with frontend developers to ensure seamless data flow. Worked late into the night debugging APIs and optimizing performance for the upcoming demo.</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Parallax Section -->
+        <section class="hackathon-parallax-2"></section>
+
+        <!-- Second Timeline Card Content -->
+        <section class="hackathon-content">
+            <div class="container">
+                <div class="timeline-card">
+                    <div class="timeline-content">
+                        <h3>🎯 Day 3 – Testing, Demo & Final Pitch</h3>
+                        <h4>Smart India Hackathon 2024 Finalist</h4>
+                        <p class="timeline-date">Venue: SVCET, Chittoor | Date: December 12, 2024</p>
+                        <p>Completed full-stack integration and resolved final bugs. Delivered a successful live demo of our AI-powered approval system to the jury panel. Highlighted features included real-time tracking, evaluator mapping, and AI-based document validation.</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Full Stack</span>
+                            <span class="skill-tag">Pitching</span>
+                            <span class="skill-tag">Demo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Parallax Section -->
+        <section class="hackathon-parallax-3"></section>
+
+        <!-- Third Timeline Card Content -->
+        <section class="hackathon-content">
+            <div class="container">
+                <div class="timeline-card">
+                    <div class="timeline-content">
+                        <h3>🚀 Outcome – Impact, Recognition & Growth</h3>
+                        <h4>Smart India Hackathon 2024 Finalist</h4>
+                        <p class="timeline-date">Venue: SVCET, Chittoor | Date: December 12, 2024</p>
+                        <p>Our team Pragati Sankalp earned recognition for developing a high-impact, scalable AI-based portal. The experience refined our skills in collaborative development, time management, and pitching under pressure — leaving us with lifelong lessons in innovation and teamwork.</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Achievement</span>
+                            <span class="skill-tag">Collaboration</span>
+                            <span class="skill-tag">Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Certificate Section -->
+    <div id="certificateSection" class="certificate-bg pt-3 pb-5">
+        <h1 class="heading text-center pb-3 pt-5">My Certifications</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 pb-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_csa-activity-7346225109159899138-EsIC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449891/Screenshot_2025-07-25_185325_ovpqro.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>CSA Certificate</h3>
+                                <p>Developed a strong understanding of ServiceNow platform architecture,
+                                    user administration, and core configuration. Learned to manage data,
+                                    implement access controls, and maintain platform performance for smooth
+                                    enterprise operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_cad-activity-7354163825828384768-0iw_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449891/Screenshot_2025-07-25_185349_xchooq.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>CAD Certificate</h3>
+                                <p>Gained hands-on experience in building and customizing applications on the ServiceNow platform.
+                                    Learned to design data models, implement business logic using scripts, and develop user-friendly
+                                    interfaces aligned with enterprise workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_programming-foundations-with-python-course-activity-7304920461929328640-erfW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449891/Screenshot_2025-07-25_185230_qfpjfp.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Programming Foundations with Python</h3>
+                                <p>Built a solid foundation in Python programming, covering topics like variables,
+                                    loops, functions, and object-oriented concepts. Developed problem-solving skills
+                                    by working on real-world coding challenges and mini-projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://certificates.ccbp.in/academy/static-website?id=CCHMAGVTUG" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1725112903/Screenshot_2024-08-31_192418_kp8scx.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Static Website Development</h3>
+                                <p>Learned to create responsive and visually appealing static websites using HTML, CSS,
+                                    and Bootstrap. Gained practical experience in structuring web pages, styling layouts,
+                                    and applying mobile-first design principles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=FVRNQVYENT" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1725113322/Screenshot_2024-08-31_192348_b3drlb.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Responsive Website Development</h3>
+                                <p>"Enhanced my web development skills by building fully responsive websites
+                                    using HTML5, CSS3, Flexbox, and Media Queries. Focused on creating seamless
+                                    user experiences across different screen sizes and devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S95520002630621685.pdf" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1725113339/Screenshot_2024-08-31_192500_pnzal8.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>NPTEL JAVA Course Certificate</h3>
+                                <p>Gained in-depth knowledge of core Java concepts such as OOPs, exception handling,
+                                    multithreading, and collections. Strengthened my ability to build modular,
+                                    object-oriented applications with real-world use cases.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://certificates.ccbp.in/academy/dynamic-web-application?id=QZYRPYFPYW" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449891/Screenshot_2025-07-25_185303_ztx0jr.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Dynamic Web Application Certificate</h3>
+                                <p>"Learned to build interactive and dynamic web applications using JavaScript
+                                    and DOM manipulation. Gained experience in handling user events, updating
+                                    content in real-time, and improving website interactivity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_completion-certificate-of-introduction-to-activity-7238202090378928128-4EYZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449889/Screenshot_2025-07-25_184614_foinel.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Introduction to Databases Certificate</h3>
+                                <p>Learned the fundamentals of database design and SQL using SQLite.
+                                    Gained hands-on experience in creating tables, writing queries, and managing
+                                    structured data efficiently for real-world applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_aws-cloudcomputing-ccbp4-activity-7207754788434841600-mcga?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449889/Screenshot_2025-07-25_184542_r5uazt.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>AWS Cloud Computing Certificate</h3>
+                                <p>Explored the basics of cloud computing with AWS,
+                                    including core services like EC2, S3, and IAM. Understood how to deploy,
+                                    manage, and scale applications on the cloud with a hands-on approach.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_ui-ux-figma-activity-7282031571799351296-Dsuc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449890/Screenshot_2025-07-25_185155_aa3trq.png" class="certificate3" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>UI/UX Design with Figma Certificate</h3>
+                                <p>Gained practical experience in designing
+                                    user interfaces using Figma. Learned key UI/UX principles such as layout,
+                                    alignment, and visual hierarchy while working on real-time design projects
+                                    to enhance user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3 mt-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_generativeaimegaworkshop-chatgpt-microsoftcopilot-activity-7243270698918428673-74o0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449890/Screenshot_2025-07-25_185010_kir4n4.png" class="certificates" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>Generative AI Mega Workshop Certificate</h3>
+                                <p>Explored the fundamentals of Generative AI,
+                                    including Large Language Models and prompt engineering.
+                                    Worked on hands-on projects using tools like ChatGPT to
+                                    understand real-world applications of AI in content creation and automation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pb-3 mt-3">
+                    <div class="certificate-flip">
+                        <div class="certificate-front">
+                            <a href="https://www.linkedin.com/posts/pardha-sai-gudivada-297447259_3in1iot-aurduino-esp8266-activity-7169724859659350016-0lJk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-adNMBWOs4JOyaZhKgD5atD4XunZHhXlo" target="_blank">
+                                <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1753449890/Screenshot_2025-07-25_184515_x9l76b.png" class="certificates" />
+                            </a>
+                        </div>
+                        <div class="certificate-back d-flex align-items-center justify-content-center">
+                            <div>
+                                <h3>IoT with Arduino & ESP8266 Certificate</h3>
+                                <p>Learned to build IoT projects using Arduino and ESP8266 Wi-Fi modules.
+                                    Gained hands-on experience in sensor interfacing, data transmission,
+                                    and real-time communication between hardware and cloud platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="contactSection" class="contact-bg text-center pt-5 pb-5 d-flex flex-column justify-content-center">
+        <h1 class="heading pb-3">Let's Collaborate: Start a Conversation</h1>
+        <div class="">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1735899585/gif1_inluly.gif" class="nav-img " />
+        </div>
+        <div class="d-flex flex-row justify-content-center ">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <button class="button d-none d-md-block mr-3">
+                    <i class="fa-solid fa-envelope pr-1"></i>
+                    pardhus.gudivada1@gmail.com
+                </button>
+            </a>
+            <a href="tel:+918096256578">
+                <button class="button2 d-none d-md-block mb-3">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    +91 8096256578
+                </button></a>
+        </div>
+        <div class="d-flex flex-column justify-content-center" align="center">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <button class="button d-block d-md-none mb-3">
+                    <i class="fa-solid fa-envelope pr-1"></i>
+                    pardhus.gudivada1@gmail.com
+                </button>
+            </a>
+            <a href="tel:+918096256578">
+                <button class="button2 d-block d-md-none mb-3">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    +91 8096256578
+                </button></a>
+        </div>
+        <div class="d-flex flex-row justify-content-center pl-3  pt-4 d-none d-md-block">
+            <a href="https://www.linkedin.com/in/pardha-sai-gudivada-297447259/" target="_blank"><i class="fa-brands fa-linkedin  contact-media2 ml-1  mb-3 p-3"></i></a>
+            <a href="https://www.instagram.com/6pardhu6?igsh=eXY1cXg1bGVlODdu" target="_blank"><i class="fa-brands fa-instagram  contact-media3  ml-2 p-3"></i></a>
+            <a href="https://github.com/Pardhuu66" target="_blank"><i class="fa-brands fa-github contact-media4  ml-2 p-3"></i></a>
+        </div>
+        <h1 class="contact-para pt-3">Thank you, for visiting...</h1>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center">
+        Made with &#x2665;&#xfe0f; by Pardha Sai<br>
+        Crafted with passion, powered by coffee &#9749;, and a sprinkle of creativity.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
